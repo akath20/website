@@ -1580,7 +1580,8 @@ input[type="radio"] + label:before {
     margin: 0 0 2em 0;
     width: 100%; }
     .image.fit img {
-      width: 100%; }
+      margin: auto;
+      max-height: 200px; }
   .image.avatar {
     border-radius: 100%; }
     .image.avatar:before {
@@ -1833,7 +1834,8 @@ input[type="button"],
     margin: 0 0 1.5em 0; }
   .work-item h3 {
     font-size: 1em;
-    margin: 0 0 0.5em 0; }
+    margin: 0 0 0.5em 0;
+    text-align: center; }
   .work-item p {
     font-size: 0.8em;
     line-height: 1.5em;
