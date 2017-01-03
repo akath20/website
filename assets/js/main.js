@@ -132,4 +132,10 @@
 
 	});
 
+	$('.modal-button').on('click', function() {
+		// Set the modal data to the content
+		$('.modal').html(decodeURI($(this).parent().find('.modal-content').html()));
+		$('.modal').modal();
+	})
+
 })(jQuery);

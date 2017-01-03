@@ -13,6 +13,12 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+		<script language="JavaScript" type="text/javascript">
+	    now = new Date
+	    theYear=now.getYear()
+	    if (theYear < 1900)
+	    theYear=theYear+1900
+		</script>
 	</head>
 	<body id="top">
 
@@ -21,8 +27,7 @@
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
 					<h1><strong>Alex Atwater</strong></h1>
-					<h2>Software Engineer, Carnival Cruise Line ⚓️ Fanatic, Apple  Enthusiast,
-						 Spotify Advocate, Rochester Institute of Technology '20</h2>
+					<h2>Software Engineering</h2><h2>Rochester Institute of Technology '20</h2>
 					<a href="https://docs.google.com/document/d/13MtSiKRn21FzUuDdeU-Fd9A10RkgCZK6wqQje6QL2VA/edit?usp=sharing"><h2><i class="fa fa-file-text"></i><u style='margin-left: 15px;'>Résumé</u></h2></a>
 				</div>
 			</header>
@@ -36,7 +41,41 @@
 							<h2>My name is <u>Alex Atwater</u> and I am a student studying <u>Software
 							Engineering</u> at <u>Rochester Institute of Technology</u></h2>
 						</header>
-						<p>SOMETHING SOMETHING SOMETHING</p>
+						<p>I am passionate about software and want to focus on software process, backend engineering, web engineering, web services, infrastructure, and cloud computing</p>
+					</section>
+
+				<!-- Education -->
+					<section id="education">
+						<h2>Education</h2>
+						<div class="row">
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="http://rit.edu" class="image fit thumb"><img src="images/fulls/rit.png" alt="" /></a>
+								<a href="http://rit.edu"><h3><u><strong>Rochester Institute of Technology</strong></u></h3></a>
+								<h3>Rochester, New York</h3>
+								<h3>B.S. Software Engineering</h3>
+								<h3>May 2020 - GPA 3.87</h3>
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<a href="http://stcc.edu" class="image fit"><img src="images/fulls/stcc.png" alt="" /></a>
+								<a href="http://stcc.edu"><h3><u>Springfield Techincal Community College</u></h3></a>
+								<h3>Springfield, Massachusetts</h3>
+								<h3>Dual Enrollment</h3>
+								<h3>Completed 23 credits while in high school</h3>
+								<h3>May 2016 - GPA 3.87</h3>
+							</article>
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="https://elps.eastlongmeadowma.gov/high-school/" class="image fit thumb"><img src="images/fulls/spartans.png" alt="" /></a>
+								<a href="http://elps.eastlongmeadowma.gov/high-school/"><h3><u>East Longmeadow High School</u></h3></a>
+								<h3>East Longmeadow, Massachusetts</h3>
+								<h3>May 2016 - GPA 4.8 - Top 10% of Class</h3>
+							</article>
+							<article class="6u 12u$(xsmall) work-item">
+								<a style="padding-top: 55px;" href="http://teamtreehouse.com" class="image fit thumb"><img src="images/fulls/treehouse.png" alt="" /></a>
+								<a href="http://teamtreehouse.com"><h3><u>TeamTreehouse.com</u></h3></a>
+								<h3>Self-Paced Online Learning Platform</h3>
+								<h3>iOS, Android, Web Development</h3>
+							</article>
+						</div>
 					</section>
 
 				<!-- Work -->
@@ -44,31 +83,49 @@
 						<h2>Work History</h2>
 						<div class="row">
 							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/rediker.jpg" class="image fit thumb"><img src="images/fulls/rediker.jpg" alt="" /></a>
-								<h3><strong>Application Developer Intern</strong></h3>
+								<a href="http://rediker.com" style="border-bottom: none;"><img class="thumb" src="images/fulls/rediker.jpg" alt="" /></a>
 								<h3>Rediker Software</h3>
+								<h3><strong>Application Developer Intern</strong></h3>
 								<h3>Hampden, Massachusetts</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a class="button modal-button">More</a>
+								<div class="modal-content">
+									<ul>
+									  <li>Full-stack engineer on Django application that streamlined teacher evaluations including administrative review and state reporting</li>
+									  <li>Wrote comprehensive unit tests for the REST API that were built against Jenkins</li>
+									  <li>Developed an internal web app that integrated with Microsoft Dynamics CRM that expanded product codes for sales/support representatives</li>
+										<li>
+											Developed scripts that generated custom reports for management for insights into Azure server usage and customer feedback
+										</li>
+									</ul>
+								</div>
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/el_seal.jpg" class="image fit"><img src="images/fulls/el_seal.jpg" alt="" /></a>
-								<h3>Helpdesk Intern</h3>
+								<img class="thumb" src="images/fulls/el_seal.jpg" alt="" />
 								<h3>East Longmeadow Information Technology Department</h3>
+								<h3>Helpdesk Intern</h3>
 								<h3>East Longmeadow, Massachusetts</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a class="button modal-button">More</a>
+								<div class="modal-content">
+									<ul>
+										<li>Configured and deployed new computers for town employees and students</li>
+										<li>Provided one-to-one technical support to town employees for basic troubleshooting, data migration, and computer repair</li>
+										<li>Coordinated donation of equipment to local children’s charity</li>
+										<li>Migration of employees to cost-efficient Chromeboxes and locating adequate alternatives to legacy PC applications via Google Play Store</li>
+									</ul>
+								</div>
 							</article>
 							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
+								<i style="color: green" class="thumb fa fa-tree fa-lg" aria-hidden="true"></i>
 								<h3>Pine Knoll Summer Camp Counselor</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
+								<i class="thumb fa fa-futbol-o fa-lg" aria-hidden="true"></i>
 								<h3>Youth Soccer Referee</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article>
 							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
+							<i class="thumb fa fa-clock-o fa-lg" aria-hidden="true"></i>
 								<h3>Hockey Timekeeper</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article>
@@ -80,90 +137,110 @@
 							<h2>Projects</h2>
 							<div class="row">
 								<article class="6u 12u$(xsmall) work-item">
-									<a href="images/fulls/rediker.jpg" class="image fit thumb"><img src="images/fulls/rediker.jpg" alt="" /></a>
-									<h3><strong>Application Developer Intern</strong></h3>
-									<h3>Rediker Software</h3>
-									<h3>Hampden, Massachusetts</h3>
-									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-								</article>
-								<article class="6u$ 12u$(xsmall) work-item">
-									<a href="images/fulls/el_seal.jpg" class="image fit"><img src="images/fulls/el_seal.jpg" alt="" /></a>
-									<h3>Helpdesk Intern</h3>
-									<h3>East Longmeadow Information Technology Department</h3>
-									<h3>East Longmeadow, Massachusetts</h3>
+									<i class="thumb fa fa-code-fork fa-lg" aria-hidden="true"></i>
+									<h3><strong>Whatzur</strong></h3>
+									<h3>Social Network</h3>
+									<h3>Status: Under Development</h3>
 									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 								</article>
 								<article class="6u 12u$(xsmall) work-item">
-									<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-									<h3>Tortor metus commodo</h3>
+									<a href="images/fulls/rediker.jpg" class="image fit thumb"><img src="images/fulls/red_dot.png" alt="" /></a>
+									<h3><strong>Red Dot</strong></h3>
+									<h3>Game - iOS</h3>
+									<h3>Status: Available</h3>
 									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 								</article>
 								<article class="6u$ 12u$(xsmall) work-item">
-									<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-									<h3>Quam neque phasellus</h3>
+									<a href="images/fulls/el_seal.jpg" class="image fit"><img src="images/fulls/speed_swipe.png" alt="" /></a>
+									<h3>Speed Swipe</h3>
+									<h3>Game - iOS</h3>
+									<h3>Status: Available</h3>
 									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 								</article>
 								<article class="6u 12u$(xsmall) work-item">
-									<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-									<h3>Nunc enim commodo aliquet</h3>
+									<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/fulls/finals_calc.png" alt="" /></a>
+									<h3>Finals Calculator</h3>
+									<h3>Education - iOS/Web</h3>
+									<h3>Status: Available</h3>
 									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 								</article>
 								<article class="6u$ 12u$(xsmall) work-item">
-									<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-									<h3>Risus ornare lacinia</h3>
+									<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/fulls/el_sports.png" alt="" /></a>
+									<h3>ELHS Sports</h3>
+									<h3>News - iOS</h3>
+									<h3>Status: Unavailable</h3>
 									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 								</article>
-							</div>
-						</section>
-
-					<!-- Education -->
-						<section id="education">
-							<h2>Education</h2>
-							<div class="row">
 								<article class="6u 12u$(xsmall) work-item">
-									<a href="images/fulls/rit.png" class="image fit thumb"><img src="images/fulls/rit.png" alt="" /></a>
-									<h3><strong>Rochester Institute of Technology</strong></h3>
-									<h3>Rochester, New York</h3>
-									<h3>B.S. Software Engineering</h3>
+									<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/fulls/ap_calc.png" alt="" /></a>
+									<h3>ELHS AP Calc</h3>
+									<h3>Utility - iOS/Android/Web</h3>
+									<h3>Status: Unavailable</h3>
 									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 								</article>
 								<article class="6u$ 12u$(xsmall) work-item">
-									<a href="images/fulls/stcc.png" class="image fit"><img src="images/fulls/stcc.png" alt="" /></a>
-									<h3>Springfield Techincal Community College</h3>
-									<h3>Springfield, Massachusetts</h3>
-									<h3>East Longmeadow, Massachusetts</h3>
-									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-								</article>
-								<article class="6u 12u$(xsmall) work-item">
-									<a href="images/fulls/spartans.png" class="image fit thumb"><img src="images/fulls/spartans.png" alt="" /></a>
-									<h3>Tortor metus commodo</h3>
+									<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/fulls/dirty_baseball.png" alt="" /></a>
+									<h3>Dirty Water Baseball</h3>
+									<h3>Sports - iOS</h3>
+									<h3>Status: Unavailable</h3>
 									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 								</article>
 							</div>
 						</section>
 
 
-						<!-- Education -->
-							<section id="volunteer">
+
+
+						<!-- Community Service -->
+							<section id="communityservice">
 								<h2>Community Service</h2>
 								<div class="row">
 									<article class="6u 12u$(xsmall) work-item">
-										<a href="images/fulls/rit.png" class="image fit thumb"><img src="images/fulls/rit.png" alt="" /></a>
-										<h3><strong>Rochester Institute of Technology</strong></h3>
-										<h3>Rochester, New York</h3>
-										<h3>B.S. Software Engineering</h3>
-										<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-									</article>
-									<article class="6u$ 12u$(xsmall) work-item">
-										<a href="images/fulls/stcc.png" class="image fit"><img src="images/fulls/stcc.png" alt="" /></a>
-										<h3>Springfield Techincal Community College</h3>
-										<h3>Springfield, Massachusetts</h3>
-										<h3>East Longmeadow, Massachusetts</h3>
+										<i class="thumb fa fa-desktop fa-lg" aria-hidden="true"></i>
+										<h3><strong>East Longmeadow High School Information Technology Department</strong></h3>
+										<h3>High School Assistant</h3>
+										<h3>2012-2015</h3>
 										<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 									</article>
 									<article class="6u 12u$(xsmall) work-item">
-										<a href="images/fulls/spartans.png" class="image fit thumb"><img src="images/fulls/spartans.png" alt="" /></a>
-										<h3>Tortor metus commodo</h3>
+										<img class="thumb" src="images/fulls/scratch.png" alt="" />
+										<h3>East Longmeadow Library Youth Computer Programming Teacher</h3>
+										<h3>2010, 2016</h3>
+										<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+									</article>
+									<article class="6u$ 12u$(xsmall) work-item">
+										<img class="thumb" src="images/fulls/ap_calc.png" alt="" />
+										<h3>AP Calculus Communication App</h3>
+										<h3>2014-2015</h3>
+										<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+									</article>
+									<article class="6u 12u$(xsmall) work-item">
+										<img class="thumb" src="images/fulls/el_sports.png" alt="" />
+										<h3>East Longmeadow High School Sports App</h3>
+										<h3>2014-2016</h3>
+									</article>
+									<article class="6u 12u$(xsmall) work-item">
+										<i class="thumb fa fa-pencil fa-lg" aria-hidden="true"></i>
+										<h3>Tutor</h3>
+										<h3>2015</h3>
+										<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+									</article>
+									<article class="6u 12u$(xsmall) work-item">
+										<i class="thumb fa fa-futbol-o fa-lg" aria-hidden="true"></i>
+										<h3>Recreation Department Soccer Jamboree Leader</h3>
+										<h3>2012-2016</h3>
+										<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+									</article>
+									<article class="6u 12u$(xsmall) work-item">
+										<i class="thumb fa fa-users fa-lg" aria-hidden="true"></i>
+										<h3>4th of July Parade Participant</h3>
+										<h3>2012-2013</h3>
+										<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+									</article>
+									<article class="6u 12u$(xsmall) work-item">
+										<i class="thumb fa fa-laptop fa-lg" aria-hidden="true"></i>
+										<h3>East Longmeadow Senior Center Computer Teacher</h3>
+										<h3>2011</h3>
 										<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 									</article>
 								</div>
@@ -526,16 +603,22 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 			</div>
 
+		<!-- Modal -->
+		<div class="modal">
+		  testing
+		</div><!-- /.modal -->
+
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
 					<ul class="icons">
 						<li><a href="http://twitter.com/akath20" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="http://github.com/akath20" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="http://linkedin.com/in/akath20" class="icon fa-linkedin"><span class="label">Github</span></a></li>
 						<li><a href="mailto:akath20@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; 2016 Alex Atwater </li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; <script>document.write(theYear)</script> Alex Atwater </li><li>Design: <a target="_blank" href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>
@@ -547,6 +630,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
+			<link rel="stylesheet" href="assets/css/jquery.modal.min.css" type="text/css" media="screen" />
 	</body>
 </html>

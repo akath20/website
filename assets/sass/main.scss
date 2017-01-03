@@ -442,7 +442,23 @@
 		}
 	}
 
+	.fa-lg {
+		font-size: 175px;
+    padding: 13px;
+		color: black;
+	}
+
+/* Modal */
+
+	.modal-content {
+		display: none;
+	}
+
 /* Image */
+
+	.thumb {
+		height: 200px;
+	}
 
 	.image {
 		border-radius: _size(border-radius);
@@ -454,6 +470,7 @@
 
 		&.thumb {
 			text-align: center;
+
 
 			&:after {
 				@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
@@ -513,6 +530,7 @@
 			img {
 				margin: auto;
 				max-height: 200px;
+				max-width: 100%;
 			}
 		}
 
@@ -857,6 +875,7 @@
 
 	.work-item {
 		margin: 0 0 _size(element-margin) 0;
+		text-align: center;
 
 		.image {
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
@@ -872,6 +891,7 @@
 			font-size: 0.8em;
 			line-height: 1.5em;
 			margin: 0;
+			text-align: center;
 		}
 	}
 
@@ -921,6 +941,10 @@
 			font-size: 3.35em;
 			line-height: 1.75em;
 			margin: 0;
+		}
+
+		h2 {
+			margin-bottom: .5em;
 		}
 
 		.image.avatar {
