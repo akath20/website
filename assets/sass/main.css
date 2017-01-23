@@ -1215,7 +1215,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #0079ff;
+  color: #49bf9d;
   text-decoration: none; }
   a:hover {
     border-bottom-color: transparent;
@@ -1538,9 +1538,6 @@ input[type="radio"] + label:before {
 /* Modal */
 .modal-content {
   display: none; }
-
-.modal ul {
-  margin-bottom: 0; }
 
 /* Image */
 .thumb {
@@ -2330,9 +2327,5 @@ body.is-touch .poptrox-popup .closer {
     line-height: 2.25em;
     margin-left: 0;
     padding-left: 0; } }
-/* Thumbs */
-.fa-thumb {
-  font-size: 208px;
-  color: black; }
 
 /*# sourceMappingURL=main.css.map */

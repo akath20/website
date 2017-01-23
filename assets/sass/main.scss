@@ -67,7 +67,7 @@
 	a {
 		@include vendor('transition', ('color #{_duration(transition)} ease-in-out', 'border-color #{_duration(transition)} ease-in-out'));
 		border-bottom: dotted 1px;
-		color: _palette(accent1, bg);
+		color: #0079ff;
 		text-decoration: none;
 
 		&:hover {
@@ -454,6 +454,10 @@
 		display: none;
 	}
 
+	.modal ul {
+		margin-bottom: 0;
+	}
+
 /* Image */
 
 	.thumb {
@@ -609,6 +613,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			margin-top: 20px;
 
 			li {
 				display: inline-block;
@@ -1011,6 +1016,7 @@
 				border-top: 0;
 				margin-top: 0;
 				padding-top: 0;
+				text-align: center;
 			}
 		}
 	}
@@ -1215,7 +1221,7 @@
 				width: $size-header-width;
 
 				h1 {
-					font-size: 1.25em;
+					// font-size: 1.25em;
 
 					br {
 						display: none;
@@ -1504,4 +1510,11 @@
 				}
 			}
 
+	}
+
+/* Thumbs */
+
+	.fa-thumb {
+		font-size: 208px;
+    	color: black;
 	}
